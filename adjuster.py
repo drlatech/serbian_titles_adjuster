@@ -2,6 +2,8 @@
 import sys
 
 # Tuple of pairs symbols and letters that should be shown in subtitle.
+# First symbol in first four pairs are not empty strings.
+# They are not only visible in browser.
 pairs = (('', 'ž'),
          ('', 'Ž'),
          ('', 'š'),
