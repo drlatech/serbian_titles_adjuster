@@ -55,7 +55,6 @@ pairs = (('', 'ž'),
 for film in film_dirs:
     files = os.listdir(film)
     for f in files:
-        print f
         if f.endswith('.srt'):
             path = film + '/' + f
             fn = open(path, 'r')
